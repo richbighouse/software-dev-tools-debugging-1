@@ -66,9 +66,11 @@ public class Main {
                 again = scanner.next();
                 if (!again.equals("y") && !again.equals("n")) {
                     System.out.println("Invalid entry. Try again");
+                } else {
+                    invalid = false;
                 }
             } while (invalid);
-        } while (again == "y");
+        } while (again.equalsIgnoreCase("y"));
     }
 
     private static void chooseNumbers(Scanner scanner) {

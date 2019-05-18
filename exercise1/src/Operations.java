@@ -1,7 +1,7 @@
 class Operations {
 
     static void add(int x, int y) {
-        int answer = x + x;
+        int answer = x + y;
         System.out.println(answer);
     }
 
